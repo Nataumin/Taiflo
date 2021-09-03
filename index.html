@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="_css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="converter.js"></script>
 </head>
 <body>
-<h1>Taiflo</h1>
-<a href="test.md">testmarkdown</a>
+
+    <!-- <script>
+        $(document).ready(function() {
+    
+            let input = document.getElementById('input');
+            let output = document.getElementById('output');
+            
+            $("#input").load("test.md", function()
+                {
+                    output.innerHTML = convert(input.innerText);
+                });
+        });
+    </script>
+    
+    <div id="input" style="display: none;"></div>
+    <div id="output"></div> -->
+
+<script>
+    $(document).ready(function() {
+        let mytext = document.getElementById('content');
+        $("#content").load("test.md", function() {
+            mytext.innerHTML = convert(mytext.innerText)
+        });
+    });
+</script>
+
+<div id="content"></div>
+
 </body>
 </html>

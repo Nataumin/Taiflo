@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <link rel="stylesheet" href="_css/style.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="myFunction()">
+
+<p id="demo"></p>
+
+<!-- <button onclick="myFunction()">Try it</button> -->
+
+<!-- <iframe src="/test.html" id="testIFrame" style="display: none;"></iframe> -->
+
+<script>
+    function myFunction() {
+        var url = 'https://www.w3schools.com/jsref/met_document_getelementbyid.asp'; //'https://dynalist.io/d/PUAKh0WpoBa3tE5c81UvmWBR';
+        var mytext = url.body.textContent;
+        document.getElementById("demo").innerHTML = mytext;
+    }
+</script>
+
+<!-- <div id="input">
+</div> -->
+
+<!-- <script>
+    function myExtract() {
+        // const rp = require('request-promise');
+        // const $ = require('cheerio');
+        // var url = 'https://dynalist.io/d/PUAKh0WpoBa3tE5c81UvmWBR';
+
+        // var text = url.textContent;
+        // console.log('text');
+        // var mytext = "hey";
+        document.getElementById("input").innerHTML = "hello";
+    }
+</script> -->
+
+</body>
+</html>
