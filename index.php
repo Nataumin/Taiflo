@@ -8,13 +8,7 @@
 <body>
 
 <?php
-$dir = '/1/01';
-$files = scandir($dir);
-$files = array_diff(scandir($path), array('.', '..')); //remove . and .. from the returned array from scandir
-foreach ($files as $file) {
-    fwrite($out, file_get_contents($file));
-}
-echo $out;
+  include("compiler.php");
 ?>
 
 </body>
