@@ -1,5 +1,5 @@
 <?php
-$Dir = "1/01";
+$Dir = "stream/1/01";
 $Output = "compiled.md";
 $Files = scandir($Dir);
 $Open = fopen($Output, "w");
