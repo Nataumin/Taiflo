@@ -1,56 +1,56 @@
-        Is this an alternative h1?
-        =================
+Is this an alternative h1?
+=================
 
-        It sure is, and this is an alternative h2 syntax
-        ---------------------------------------
+It sure is, and this is an alternative h2 syntax
+---------------------------------------
 
-        # hi1
-        ## hi2
-        ### hi3
-        #### hi4
+# hi1
+## hi2
+### hi3
+#### hi4
 
-        hi how are ya? just adding a bit of [multiline text](https://google.com?q=multiline%20text "Google homepage") with a title for the link. And a [link](https://google.com) without to see how it works out in the parser ya know.
+hi how are ya? just adding a bit of [multiline text](https://google.com?q=multiline%20text "Google homepage") with a title for the link. And a [link](https://google.com) without to see how it works out in the parser ya know.
 
-        ##### hi5
+##### hi5
 
-        > een quite for your pleasure just one question, is it multiline? Yes it sure is sir
+> een quite for your pleasure just one question, is it multiline? Yes it sure is sir
 
-        ###### hi6
+###### hi6
 
-        Okay so that seems to all work fine, how about some other stuff like *italic* text and using an alternative _italic_ text syntax to make it look more classic and give it a bit of an italian look.
+Okay so that seems to all work fine, how about some other stuff like *italic* text and using an alternative _italic_ text syntax to make it look more classic and give it a bit of an italian look.
 
-        And some **bold** text to make it stronger and stuff.
+And some **bold** text to make it stronger and stuff.
 
-        ![Placehold.it 200x200 image](http://placehold.it/200x200)
+![Placehold.it 200x200 image](http://placehold.it/200x200)
 
-        Or **_bold and italic_** just like that
+Or **_bold and italic_** just like that
 
-        And what about bold with a __alternative syntax__.
+And what about bold with a __alternative syntax__.
 
-        Oh and hey when we're at it why not add some ~~striked through~~ text as well right?
+Oh and hey when we're at it why not add some ~~striked through~~ text as well right?
 
-        ## Just other stuff
+## Just other stuff
 
-        But what about some lists?
+But what about some lists?
 
-        * Bananas
-        * Apples
-        * Grapefruits
-        * Oranges
+* Bananas
+* Apples
+* Grapefruits
+* Oranges
 
-        And with some numberssss
+And with some numberssss
 
-        1. Star Trek
-        2. Good Fellas
-        3. Star Wars
-        4. Legally Blond
+1. Star Trek
+2. Good Fellas
+3. Star Wars
+4. Legally Blond
 
-        How about *some* **yeah** or **oh YEAH!**
+How about *some* **yeah** or **oh YEAH!**
 
-        #### Finding new YEAH's!
+#### Finding new YEAH's!
 
-        ```language-js
-        ws.getMonkeys(race, type, callback);
+```language-js
+ws.getMonkeys(race, type, callback);
 ```
 
 And what about some more **bold** and *italic* text then, maybe also some ~~striked through text~~?
